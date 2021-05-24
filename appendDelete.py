@@ -11,6 +11,8 @@ for j in t:
 list3=list2.copy()
 if len(list1)>len(list2):
     list2.append("")
+elif len(list1)==len(list2):
+    pass
 else:
     list2.append("")
 f=len(list1)
